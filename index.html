@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Auth UI</title>
+  
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+>  <script type="module" src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js"></script>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h3>FireBase</h3></a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </ul>
+    </div>
+    <button class="btn btn-outline-light me-2" onclick="showSignUp()">Sign Up</button>
+    <button class="btn btn-outline-light" onclick="showSignIn()">Login</button>
+  </div>
+</nav>
+
+
+<div class="form-container" id="signInForm">
+  <h4 class="text-center mb-4">Login</h4>
+  <input type="email" id="signInEmail" class="form-control mb-3" placeholder="Enter your email">
+  <input type="password" id="signInPassword" class="form-control mb-3" placeholder="Password">
+  <button onclick="signIn()" class="btn btn-primary w-100">Login</button>
+</div>
+
+<div class="form-container" id="signUpForm" style="display: none;">
+  <h4 class="text-center mb-4">Sign Up</h4>
+  <input type="email" id="signUpEmail" class="form-control mb-3" placeholder="Enter your email">
+  <input type="password" id="signUpPassword" class="form-control mb-3" placeholder="Password">
+  <button onclick="signUp()" class="btn btn-success w-100">Sign Up</button>
+</div><div class="cardss">
+<div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1QVpKRB4Ret21rKNWCPfv-3qHjxaPxf-_XA&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><B>WEBSITE</B></h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the .</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQhmQ1URMdyEbwAQFSIvJRlZbhOg2fe6w06w&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><B>CODING</B></h5>
+      <p class="card-text">Some quick example text to ke up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQhmQ1URMdyEbwAQFSIvJRlZbhOg2fe6w06w&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><B>CODING</B></h5>
+      <p class="card-text">Some quick example text to ke up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQhmQ1URMdyEbwAQFSIvJRlZbhOg2fe6w06w&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><B>CODING</B></h5>
+      <p class="card-text">Some quick example text to ke up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> 
+  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxk-zdn2_TGKUxm088wJFEGy6emO6a1C370g&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>GRAPHIC</b></h5>
+      <p class="card-text">Some quick example text to build on thof the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div></div>
+  </div>
+
+</script>
+<script type="module" src="script.js"></script>
+

@@ -1,0 +1,399 @@
+.one{
+    color: seashell;
+
+}
+.body{
+padding: 0;
+margin: 0;
+
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #f3f4f6;
+  }
+
+  nav {
+    background-color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  nav .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: hwb(243 27% 10%);
+  }
+
+  nav .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  nav .nav-links a:hover {
+    color: #4f46e5;
+  }
+
+  nav .buttons button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  #signupBtn {
+    border-color: #007bff;
+    color: #007bff;
+  }
+
+  #signupBtn:hover {
+    background-color: #e7f1ff;
+  }
+
+  #loginBtn {
+    border-color: #28a745;
+    color: #28a745;
+  }
+
+  #loginBtn:hover {
+    background-color: #e6f4ea;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 16px;
+  }
+
+  .card h5 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .card .btn-primary {
+    background-color: #3e9bff;
+    margin-bottom: 16px;
+  }
+
+  .card .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .card .btn-success {
+    background-color: #28a745;
+  }
+
+  .card .btn-success:hover {
+    background-color: #1e7e34;
+  }
+
+  .card .btn-danger {
+    background-color: #dc3545;
+    margin-top: 16px;
+  }
+
+  .card .btn-danger:hover {
+    background-color: #c82333;
+  }
+
+  hr {
+    margin: 24px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  body {
+    background-color: #f3f4f6;
+}
+
+nav {
+    background-color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+nav .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav .nav-links a:hover {
+    color: #4f46e5;
+}
+
+nav .buttons button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#signupBtn {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+#signupBtn:hover {
+    background-color: #e7f1ff;
+}
+
+#loginBtn {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+#loginBtn:hover {
+    background-color: #e6f4ea;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h5 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card input, .card select, .card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card .btn-success {
+    background-color: #28a745;
+}
+
+.card .btn-success:hover {
+    background-color: #1e7e34;
+}
+
+.card .btn-danger {
+    background-color: #dc3545;
+    margin-top: 16px;
+}
+
+.card .btn-danger:hover {
+    background-color: #c82333;
+}
+body {
+    background-color: #f8f9fa;
+  }
+  .navbar {
+    background-color: #0d6efd;
+  }
+  .navbar-brand, .nav-link, .btn {
+    color: white !important;
+  }
+  .form-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #8dccff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    background-attachment: fixed;
+  }
+  
+  .card {
+    border-radius: 20px;
+  }
+  
+  input {
+    border-radius: 10px;
+  }
+  
+  button {
+    border-radius: 12px;
+    font-weight: bold;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: hsl(219, 100%, 50%);
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.form-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 8px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #4116ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0659f3;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+.cardss{
+    display: flex;
+align-items: center;
+gap: 30px;
+justify-content: center;}
+.card-body{
+
+}
+.card{
+  background-color:  #8dccff;}
